@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ChatSky Home</title>
+    <meta name="description" content="An interactive getting started guide for Brackets.">
+    <link rel="stylesheet" type="text/css" href="ChatSky/Static/css/secondcss.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="ChatSky/Static/JavaScript/jquery-ui-1.12.1/jquery-ui.css">
+</head>
+
+<body>
+    <section id="nav" class="navbar navbar-expand navbar-light bg-light">
+    <a class="navbar-brand" href="index.php">
+       <img src="ChatSky/Static/image/group.svg" width="30" height="30" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" 
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"> </span>
+    </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="btn btn-outline-success my-2 my-sm-0" type="button" value="登入" onclick="location.href='http://<?php echo $IP; ?>/ChatSky/ChatSkyLogin.html'">
+            </form>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <div class="whitePaper">
+                <div class=" row">
+                    <div class="col-md-12 mycenter">
+                        <h2>ChatSky</h2>
+                        <p>Welcome to chatsky room</p>
+                    </div>
+                    <div class="col-md-7"></div>
+                </div>
+            </div>
+            <div class="MyContainer">
+                <div class="whitePaper_Button">
+                    <div class=" row">
+                        <div class="col-md-12 ">
+                            <form class="form-inline my-2 my-lg-0">
+                                <input class="btn btn-outline-success my-2 my-sm-0" type="button" value="登入" onclick="location.href='http://<?php echo $IP; ?>/ChatSky/ChatSkyLogin.html'">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="backgroundImageFilter"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="modal-footer navbar-light bg-light" style="padding:0rem">
+        <div class=" container">
+            <div class=" row">
+                <div class="col-md-12 mycenter">
+                    <p>welcome to xcoco<a href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"> xcoco1</a> or read our <a href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.css">xcoco2</a>.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
